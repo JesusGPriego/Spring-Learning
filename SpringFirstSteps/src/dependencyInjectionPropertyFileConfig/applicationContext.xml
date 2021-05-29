@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd " 
+	xmlns:context="http://www.springframework.org/schema/context" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://www.springframework.org/schema/beans"> 
+
+	<!-- Loading properties file -->
+
+	<context:property-placeholder location="classpath:dependencyInjectionPropertyFileConfig/properties_file.properties"/>
+
+	<!-- This bean will generate reports -->
+	<bean id="reportGenerator" class="dependencyInjectionPropertyFileConfig.Report">
+	</bean>
+
+	<!-- This bean will generate boss object -->
+	<bean id="bossGenerator" class="dependencyInjectionPropertyFileConfig.Boss">
+		<!-- Here we can solve the dependency -->
+		<constructor-arg ref="reportGenerator"></constructor-arg>
+	</bean>
+	
+	<!-- This bean will generate secretary objects -->
+	<bean id="secretaryGenerator" class="dependencyInjectionPropertyFileConfig.Secretary">
+		<!-- Here we can solve the dependency -->
+		<!-- constructor -->
+		<property name="reportCreation" ref="reportGenerator"></property>
+		<!-- other fields -->
+		<property name="email" value="${email}"></property>
+		<property name="brandName" value="${brandName}"></property>
+		
+	</bean>
+	
+
+</beans>
