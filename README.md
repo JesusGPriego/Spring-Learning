@@ -29,3 +29,9 @@ Annotations seen:
 * @Configuration
 * @PostConstruct and @PreDestroy
 * @PropertySource and @Value
+
+# MVC With Spring
+
+In this lesson i've lernt how to build apps using MVC
+pattern with Spring. 
+I have also learnt how to provide static content.
