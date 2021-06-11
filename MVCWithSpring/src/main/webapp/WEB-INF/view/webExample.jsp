@@ -11,6 +11,6 @@
 	<!-- Main page. It just a text and a link to the form. -->
 	<h1>Hello World!</h1>
 	
-	<a href="basicForm">Go to form</a> 
+	<a href="main/basicForm">Go to form</a> 
 </body>
 </html>
