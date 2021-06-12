@@ -2,6 +2,8 @@
 
 Here I will be uploading my Spring framework learning progress.
 
+Disclaimer: All the apps have been tested in TomCat 9.0, using java 8 to compile the projects.
+
 # Fists steps:
 
 Here I show my first steps with Spring. Those, basically are:
@@ -35,3 +37,18 @@ Annotations seen:
 In this lesson i've lernt how to build apps using MVC
 pattern with Spring. 
 I have also learnt how to provide static content.
+
+
+# MVCFormTags
+
+In this lesson, I've leart how to create forms with Spring.
+I've also learnt how to validate the forms, using Hibernate Api,  with tags like:
+
+* @Size
+* @NotNull
+* @Min and @Max
+* @NotEmpty
+* @Pattern
+* And a custom annotation: @PostalCode
+
+Additionally to this, I've learnt how to create custom exception errors messages to show in the forms.
