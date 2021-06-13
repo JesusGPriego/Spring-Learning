@@ -52,3 +52,11 @@ I've also learnt how to validate the forms, using Hibernate Api,  with tags like
 * And a custom annotation: @PostalCode
 
 Additionally to this, I've learnt how to create custom exception errors messages to show in the forms.
+
+# DataAccessWithHibernate
+
+In this lesson, I've learnt how to access data with Hibernate framework. I've leaernt:
+
+* Hibernate configuration using xml file.
+* Mapping with annotations.
+* Select, update and delete querys (OOP and HQL)
