@@ -60,3 +60,14 @@ In this lesson, I've learnt how to access data with Hibernate framework. I've le
 * Hibernate configuration using xml file.
 * Mapping with annotations.
 * Select, update and delete querys (OOP and HQL)
+
+# RelationsWithHibernate
+
+In this project I've learnt how to set relations between entities.
+The relations i've set in this project are one to one, one to many and many to one.
+
+I have also learnt:
+
+* Annotations: @JoinColumn, @OneToMany, @ManyToOne, @OneToOne.
+* Set cascade between tables: cascade = CascadeType...
+* Fetch: Lazy and Eager
