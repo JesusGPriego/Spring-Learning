@@ -71,3 +71,10 @@ I have also learnt:
 * Annotations: @JoinColumn, @OneToMany, @ManyToOne, @OneToOne.
 * Set cascade between tables: cascade = CascadeType...
 * Fetch: Lazy and Eager
+
+#SpringCRUD:
+
+So this is my first CRUD project using Spring. I've also included form validation learnt some lessons ago.
+Hibernate here make it easy to work with MySQL database.
+
+The CRUD works just fine, with all the functions expected.
